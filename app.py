@@ -6,7 +6,7 @@ from openai import OpenAI
 client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
 # ID de l'assistant AFMA
-ASSISTANT_ID = "asst_hIbemseWgHUIE32dCFmLEykX"
+ASSISTANT_ID = "asst_8G7YTLDq6doupsXMZhhKoVet"
 
 # Initialisation de l'historique de la conversation
 if "messages" not in st.session_state:
